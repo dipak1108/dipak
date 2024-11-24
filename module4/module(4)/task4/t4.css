@@ -1,0 +1,26 @@
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+article img {
+  max-width: 100%;
+  height: auto;
+}
+article h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+article a {
+  color: #007BFF;
+  text-decoration: none;
+}
+article a:hover {
+  text-decoration: underline;
+}
